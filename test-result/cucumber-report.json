@@ -1,0 +1,530 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "inventory-functionality;verify-add-to-cart-functionality",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "verify add to cart functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 187071399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User Launches the Application",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\common.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1086932699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify add to cart functionality",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\cart.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261841699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 363806499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "inventory-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Inventory Functionality",
+    "tags": [],
+    "uri": "AutomationCode\\FeatureFiles\\cart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "checking-cart-functionalities;verify-cart-functionalities",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Cart Functionalities",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 166104400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User Launches the Application",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\common.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1021228900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify cart Functionalities",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\CartCheck.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532936399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 281197600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "checking-cart-functionalities",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checking Cart Functionalities",
+    "tags": [],
+    "uri": "AutomationCode\\FeatureFiles\\cartCheck.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-checkout-page;verify-checkout-page-functionalities",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Checkout Page Functionalities",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 141231800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User Launches the Application",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\common.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 889900400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I Verify Checkout page Functionalities",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\Checkout.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609487799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 317832599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-checkout-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify Checkout Page",
+    "tags": [],
+    "uri": "AutomationCode\\FeatureFiles\\checkout.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-checkout-overview-page;verify-checkout-overview-page-info",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Checkout Overview Page Info",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131534699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User Launches the Application",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\common.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 937619899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I Verify Checkout Overview page Info",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\chkOutOverviewPage.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 833734599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 311932300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-checkout-overview-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify Checkout Overview Page",
+    "tags": [],
+    "uri": "AutomationCode\\FeatureFiles\\chkOutOverview.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-inventory-page;verify-inventory-page-functionalities",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Inventory Page Functionalities",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 128772600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User Launches the Application",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\common.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 882024500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I Verify Inventory page Functionalities",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\inventory.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148975800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 292875500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-inventory-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify Inventory Page",
+    "tags": [],
+    "uri": "AutomationCode\\FeatureFiles\\inventory.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;verify-login-functionality",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Login Functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151639000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User Launches the Sauce Application",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\login.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 576362600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the Login Functionality",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\login.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314716199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 276290999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;verify-login-functionality",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify Login Functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 136890099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User Launches the Sauce Application",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\login.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 613293400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify with Invalid Credentials",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\login.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191904000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 234536799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "AutomationCode\\FeatureFiles\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "security-testing;verify-protected-pages",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify protected pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 136503500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I verify protected pages cannot be accessed without login",
+            "match": {
+              "location": "AutomationCode\\StepDefinition\\security.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 863265699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 211568700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "security-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Security Testing",
+    "tags": [],
+    "uri": "AutomationCode\\FeatureFiles\\security.feature"
+  }
+]

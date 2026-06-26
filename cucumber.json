@@ -1,0 +1,25 @@
+{
+    "default": {
+        "tags": "@cart",
+        "dryRun": false,
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "AutomationCode/FeatureFiles/**/*.feature"
+        ],
+        "require": [
+            "AutomationCode/StepDefinition/**/*.ts",
+            "AutomationCode/StepDefinition/**/*.js"
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "format": [
+            "progress-bar",
+            "html:test-result/cucumber-report.html",
+            "json:test-result/cucumber-report.json",
+            "rerun:@rerun.txt"
+        ]
+    }
+}

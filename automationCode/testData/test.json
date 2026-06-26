@@ -1,0 +1,21 @@
+{
+   "credentials":{
+      "url":"https://www.saucedemo.com/",
+      "username":"standard_user",
+      "password":"secret_sauce",
+      "title":"Swag Labs",
+      "invalidUsername":"ADMIN",
+      "invalidPassword":"admin123",
+      "errorMessage":"",
+      "inventoryPageURL":"https://www.saucedemo.com/inventory.html" 
+   },
+   "userInfo":{
+      "firstName":"priyanka",
+      "lastName":"akasapu",
+      "pincode":"500084"
+   },
+   "thankyouURL":{
+      "url":"https://www.saucedemo.com/checkout-complete.html"
+   }
+}
+
