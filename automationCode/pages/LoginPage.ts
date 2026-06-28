@@ -20,7 +20,7 @@ export class LoginPage{
          this.sideMenu=this.page.locator('//div[@class="bm-burger-button"]')
          this.logoutBtn=this.page.locator('#logout_sidebar_link')
          this.productsPage=this.page.locator('.title')
-         this.errorMessage=this.page.locator('//h3[text()="Epic sadface: Username and password do not match any user in this service"]')
+         this.errorMessage=this.page.locator('.error-message-container h3')
     }
     async verifyWebElements(){
         await expect(this.sauceHeading).toBeVisible()
