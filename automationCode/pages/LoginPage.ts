@@ -44,8 +44,9 @@ export class LoginPage{
        await expect(this.logoutBtn).toBeVisible()
        await expect(this.productsPage).toHaveText('Products') 
     }
-    async verifyErrorMessage(){
+    async verifyErrorMessage(expectedMessage:string){
        await expect(this.errorMessage).toBeVisible()
+       await expect(this.errorMessage).toHaveText(expectedMessage)
     }
 }
 
