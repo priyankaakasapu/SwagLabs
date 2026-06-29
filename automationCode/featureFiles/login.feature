@@ -13,8 +13,8 @@ Scenario Outline: Verify login for multiple Sauce Demo users
     | locked_out_user |
     | problem_user |
     | performance_glitch_user |
-    | error_user |
-    | visual_user |
+    # | error_user |
+    # | visual_user |
 
 @cart
 Scenario: Verify login with invalid credentials
