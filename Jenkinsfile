@@ -3,14 +3,14 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
+        stage('Checkout') {
             steps {
                 git branch: 'master',
                 url: 'https://github.com/priyankaakasapu/SwagLabs.git'
             }
         }
 
-        stage('Environment Verification') {
+        stage('Environment Check') {
             steps {
                 bat 'node -v'
                 bat 'npm -v'
@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage('Install Playwright Browsers') {
+        stage('Install Playwright') {
             steps {
                 bat 'npx playwright install'
             }
